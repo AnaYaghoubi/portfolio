@@ -1,0 +1,44 @@
+.aboutMe {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  flex-direction: row-reverse;
+}
+
+.aboutTitel {
+  margin-top: 2rem;
+}
+
+.aboutMe img {
+  margin: 0 1.2rem;
+  width: 35%;
+  /* margin-bottom: 1rem; */
+}
+
+.aboutMeDetail {
+  display: flex;
+  text-align: justify;
+  justify-content: center;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 769px) {
+  .aboutMe {
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aboutTitel {
+    text-align: left;
+  }
+
+  .aboutMe img {
+    width: 80%;
+    align-items: center;
+    margin: auto;
+  }
+}
