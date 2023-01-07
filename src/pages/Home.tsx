@@ -13,8 +13,8 @@ const Home = () => {
         titel="Over mij:"
         image="/assets/me.jpg"
         about={[
-          <p>
-            Mijn naam is Ana en studeer ik programmeren op de Ap Hogeschool
+          <p key={1}>
+            Mijn naam is Ana en ik studeer programmeren op de Ap Hogeschool
             Antwerpen. Ik ben een hardwerkende student met hoge motivatie en
             ga graag die ene stap verder om de details uit te pluizen. <br />
             Ik wil graag leren en sta open voor feedback.

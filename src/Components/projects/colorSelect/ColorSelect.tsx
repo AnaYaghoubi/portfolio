@@ -32,8 +32,8 @@ const ColorSelect = () => {
       </button>
 
       <div className={styles.colorContainer}>
-        {shownColors.map((color) => (
-          <div style={{ backgroundColor: color, height: 200, flex: 1 }} />
+        {shownColors.map((color, index) => (
+          <div key={index} style={{ backgroundColor: color, height: 200, flex: 1 }} />
         ))}
       </div>
     </div>

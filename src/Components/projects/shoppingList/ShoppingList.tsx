@@ -72,7 +72,7 @@ const ShoppingList = () => {
                   <td>{item.name}</td>
                   <td>{item.quantity}</td>
                   <td>
-                    <button
+                    <button key={index}
                       onClick={() => {
                         removeShoppingItem(index);
                       }}

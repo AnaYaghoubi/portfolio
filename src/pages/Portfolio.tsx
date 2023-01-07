@@ -28,7 +28,7 @@ const ProjectSection = styled.section`
 
 export const portfoliItems: IPortfolio[] = [
   {
-    name: "Color Selet",
+    name: "Color Select",
     description:
       "Dit project bevat een overzicht van kleuren in een lijst. Als je op een van de kleuren klikt dan kan je deze weergeven.",
     component: <ColorSelect />,
